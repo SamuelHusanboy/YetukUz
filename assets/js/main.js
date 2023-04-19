@@ -271,3 +271,19 @@ hero_form_label.forEach((element) => {
         element.classList.toggle("selected")
     })
 });
+
+let hero_form_wrapper_p = document.querySelector(".main-hero_form_wrapper p")
+let hero_form_wrapper_input = document.querySelector(".main-hero_form_wrapper input")
+
+
+window.addEventListener("resize", () => {
+    hero_form_wrapper_input.style.height = `${hero_form_wrapper_p.getBoundingClientRect().height}px`
+})
+
+window.addEventListener("scroll", () => {
+    hero_form_wrapper_input.style.height = `${hero_form_wrapper_p.getBoundingClientRect().height}px`
+})
+
+window.addEventListener("load", () => {
+    hero_form_wrapper_input.style.height = `${hero_form_wrapper_p.getBoundingClientRect().height}px`
+})
