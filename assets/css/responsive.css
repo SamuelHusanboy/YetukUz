@@ -368,7 +368,7 @@
     }
 
     .main-hero_form.opened {
-        top: 120px;
+        top: 50%;
     }
 
     .main-hero_form input {
