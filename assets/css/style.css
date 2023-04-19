@@ -607,7 +607,7 @@ header.scrolled .logo img {
 }
 
 .main-hero_form.opened {
-    top: 100px;
+    top: 50%;
 }
 
 .main-hero_form {
@@ -618,7 +618,7 @@ header.scrolled .logo img {
     padding: 50px;
     top: -1020px;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-50%, -50%);
     box-shadow: 0px 15px 50px rgba(0, 0, 0, 0.05),
         inset 0px 22px 35px rgba(255, 255, 255, 0.25);
 }
@@ -1192,7 +1192,6 @@ header.scrolled .logo img {
 }
 
 .main-cusaboutus {
-    padding-top: 100px;
     padding-bottom: 20px;
 }
 
